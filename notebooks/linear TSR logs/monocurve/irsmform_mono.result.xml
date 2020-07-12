@@ -1,0 +1,1737 @@
+<!DOCTYPE MacsML []>
+<MacsML>
+  <IDs> 98063 ; 0 </IDs>
+  <MacsInstrument> CMS swap </MacsInstrument>
+  <ProcessesList>
+    <NumberOfElements> 1 </NumberOfElements>
+    <Processes>
+      <Process>
+        <ProcessLabel>EUR</ProcessLabel>
+        <ProcessMarket>Unknown</ProcessMarket>
+        <DisplayLabel>EUR</DisplayLabel>
+        <FactorsList>
+          <NumberOfElements> 1 </NumberOfElements>
+          <Factors>
+            <Factor>
+              <VolatilityCurve>
+                <OneDCurve>
+                  <InterpolationMethod> PieceWise </InterpolationMethod>
+                  <NumberOfElements> 2 </NumberOfElements>
+                  <Buckets>  0.0000000000000  ;  60.0383561643836 </Buckets>
+                  <Values>  0.0000001000000  ;   0.0000001000000 </Values>
+                </OneDCurve>
+              </VolatilityCurve>
+              <MeanRR>  0.0000000000000</MeanRR>
+            </Factor>
+          </Factors>
+        </FactorsList>
+        <FactorsCorrelations> 0.0000000000000000 ; 0.0000000000000000 ; 0.0000000000000000 </FactorsCorrelations>
+        <MeanRevTSR>
+          <MeanRevCurrency>
+            <OneDCurve>
+              <InterpolationMethod> Linear </InterpolationMethod>
+              <FlatExtrapolation> Yes </FlatExtrapolation>
+              <NumberOfElements> 3 </NumberOfElements>
+              <Buckets>  1.0000000000000  ;   5.0027397260274  ;  10.0082191780822 </Buckets>
+              <Values>  0.0500000000000  ;   0.0300000000000  ;   0.0100000000000 </Values>
+            </OneDCurve>
+          </MeanRevCurrency>
+          <MeanRevSwapRateList>
+            <NumberOfElements> 1 </NumberOfElements>
+            <MeanRevSwapRates>
+              <MeanRevSwapRate>
+                <UnderlyingLength>  10.0000000000000  </UnderlyingLength>
+                <MeanRev>
+                  <OneDCurve>
+                    <InterpolationMethod> Linear </InterpolationMethod>
+                    <FlatExtrapolation> Yes </FlatExtrapolation>
+                    <NumberOfElements> 3 </NumberOfElements>
+                    <Buckets>  1.0000000000000  ;   5.0027397260274  ;  10.0082191780822 </Buckets>
+                    <Values>  0.0200000000000  ;   0.0400000000000  ;   0.0600000000000 </Values>
+                  </OneDCurve>
+                </MeanRev>
+              </MeanRevSwapRate>
+            </MeanRevSwapRates>
+          </MeanRevSwapRateList>
+        </MeanRevTSR>
+        <CalibrationBasket>
+          <CalibrationStatus> Ok </CalibrationStatus>
+          <CalMeanR> BootstrapOnly </CalMeanR>
+          <UseAdjusters> 0 </UseAdjusters>
+          <FBestFitLevel> -1 </FBestFitLevel>
+          <SBestFitLevel> -1 </SBestFitLevel>
+          <FBootstrapLevel> 0 </FBootstrapLevel>
+          <SBootstrapLevel> 1 </SBootstrapLevel>
+          <FAdjusterLevel> 0 </FAdjusterLevel>
+          <SAdjusterLevel> 0 </SAdjusterLevel>
+          <MaxAdjusterStdDev> 0.00 </MaxAdjusterStdDev>
+          <CalAnalysis> 1 </CalAnalysis>
+          <CalibrateSkew> 0 </CalibrateSkew>
+          <ANSLinearInterpolation> 0 </ANSLinearInterpolation>
+          <CmsLevels> 1  ;  0  ;  0  ;  0  ;  0 </CmsLevels>
+          <CmsReplicationSwapRateModel> Linear </CmsReplicationSwapRateModel>
+          <CalibrationLevelDescriptionList>
+            <CalibrationLevelDescription>0 ; Underlying ; OnExercizeDate </CalibrationLevelDescription>
+          </CalibrationLevelDescriptionList>
+          <NumberOfElements> 30 </NumberOfElements>
+          <CalibrationInstruments>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  20.0082191780822  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4092311599175  </Strike>
+              <BlackVol>   0.0045471098434  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0061560540109  </CalibratedPremium>
+              <CalibratedVolatility>   0.0045471098434  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0140391458516  </SpotSwapRate>
+                <FixLeg>   7.1288613159145  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0164679139196  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  20.0191780821918 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  21.0191780821918 ;  -0.0142341339884 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  22.0191780821918 ;  -0.0142341339884 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  23.0191780821918 ;  -0.0142341339884 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  24.0273972602740 ;  -0.0143511268705 ;   1.0222222222222 ; FixFleg </Flow>
+                <Flow>  25.0246575342466 ;  -0.0141951363610 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  26.0219178082192 ;  -0.0141951363610 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  27.0219178082192 ;  -0.0142341339884 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  28.0246575342466 ;  -0.0142731316158 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  29.0246575342466 ;  -0.0142341339884 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  30.0301369863014 ;  -0.0143121292431 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  30.0301369863014 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  21.0082191780822  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4093369066803  </Strike>
+              <BlackVol>   0.0044734981131  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0061189462627  </CalibratedPremium>
+              <CalibratedVolatility>   0.0044734981131  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0140244914747  </SpotSwapRate>
+                <FixLeg>   7.0271367072468  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0164918603058  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  21.0191780821918 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  22.0191780821918 ;  -0.0142192760785 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  23.0191780821918 ;  -0.0142192760785 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  24.0273972602740 ;  -0.0143361468408 ;   1.0222222222222 ; FixFleg </Flow>
+                <Flow>  25.0246575342466 ;  -0.0141803191578 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  26.0219178082192 ;  -0.0141803191578 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  27.0219178082192 ;  -0.0142192760785 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  28.0246575342466 ;  -0.0142582329993 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  29.0246575342466 ;  -0.0142192760785 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  30.0301369863014 ;  -0.0142971899201 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  31.0273972602740 ;  -0.0141803191578 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  31.0273972602740 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  22.0136986301370  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4092627984801  </Strike>
+              <BlackVol>   0.0043992851557  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0060730059945  </CalibratedPremium>
+              <CalibratedVolatility>   0.0043992851557  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0140067743419  </SpotSwapRate>
+                <FixLeg>   6.9287395096449  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0165039801153  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  22.0191780821918 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  23.0191780821918 ;  -0.0142013128744 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  24.0273972602740 ;  -0.0143180359940 ;   1.0222222222222 ; FixFleg </Flow>
+                <Flow>  25.0246575342466 ;  -0.0141624051679 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  26.0219178082192 ;  -0.0141624051679 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  27.0219178082192 ;  -0.0142013128744 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  28.0246575342466 ;  -0.0142402205809 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  29.0246575342466 ;  -0.0142013128744 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  30.0301369863014 ;  -0.0142791282874 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  31.0273972602740 ;  -0.0141624051679 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  32.0273972602740 ;  -0.0142013128744 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  32.0273972602740 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  23.0136986301370  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4090048130668  </Strike>
+              <BlackVol>   0.0043254766287  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0060195605863  </CalibratedPremium>
+              <CalibratedVolatility>   0.0043254766287  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0139859835414  </SpotSwapRate>
+                <FixLeg>   6.8318621109506  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0165097898438  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  23.0191780821918 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  24.0273972602740 ;  -0.0142967831757 ;   1.0222222222222 ; FixFleg </Flow>
+                <Flow>  25.0246575342466 ;  -0.0141413833585 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  26.0219178082192 ;  -0.0141413833585 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  27.0219178082192 ;  -0.0141802333128 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  28.0246575342466 ;  -0.0142190832671 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  29.0246575342466 ;  -0.0141802333128 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  30.0301369863014 ;  -0.0142579332214 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  31.0273972602740 ;  -0.0141413833585 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  32.0273972602740 ;  -0.0141802333128 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  33.0273972602740 ;  -0.0141802333128 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  33.0273972602740 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  24.0164383561644  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4085338014914  </Strike>
+              <BlackVol>   0.0042514658865  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0059588839255  </CalibratedPremium>
+              <CalibratedVolatility>   0.0042514658865  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0139618812804  </SpotSwapRate>
+                <FixLeg>   6.7323152090584  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0165080991355  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  24.0273972602740 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  25.0273972602740 ;  -0.0141557962982 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  26.0273972602740 ;  -0.0141557962982 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  27.0273972602740 ;  -0.0141557962982 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  28.0273972602740 ;  -0.0141557962982 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  29.0328767123288 ;  -0.0142333623053 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  30.0301369863014 ;  -0.0141170132946 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  31.0301369863014 ;  -0.0141557962982 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  32.0328767123288 ;  -0.0141945793017 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  33.0328767123288 ;  -0.0141557962982 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  34.0301369863014 ;  -0.0141170132946 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  34.0301369863014 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  25.0136986301370  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4079230245625  </Strike>
+              <BlackVol>   0.0041778595746  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0058921177713  </CalibratedPremium>
+              <CalibratedVolatility>   0.0041778595746  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0139348461225  </SpotSwapRate>
+                <FixLeg>   6.6438246998580  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0164981405113  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  25.0246575342466 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  26.0246575342466 ;  -0.0141283856520 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  27.0246575342466 ;  -0.0141283856520 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  28.0273972602740 ;  -0.0141670935579 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  29.0328767123288 ;  -0.0142058014638 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  30.0301369863014 ;  -0.0140896777461 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  31.0273972602740 ;  -0.0140896777461 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  32.0301369863014 ;  -0.0141670935579 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  33.0301369863014 ;  -0.0141283856520 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  34.0301369863014 ;  -0.0141283856520 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  35.0356164383562 ;  -0.0142058014638 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  35.0356164383562 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  26.0109589041096  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4083353894053  </Strike>
+              <BlackVol>   0.0041329790270  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0058608738975  </CalibratedPremium>
+              <CalibratedVolatility>   0.0041329790270  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0139164579212  </SpotSwapRate>
+                <FixLeg>   6.5516381352167  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0165251545527  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  26.0219178082192 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  27.0219178082192 ;  -0.0141097420590 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  28.0246575342466 ;  -0.0141483988865 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  29.0246575342466 ;  -0.0141097420590 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  30.0301369863014 ;  -0.0141870557141 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  31.0273972602740 ;  -0.0140710852314 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  32.0273972602740 ;  -0.0141097420590 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  33.0273972602740 ;  -0.0141097420590 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  34.0273972602740 ;  -0.0141097420590 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  35.0273972602740 ;  -0.0141097420590 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  36.0328767123288 ;  -0.0141870557141 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  36.0328767123288 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  27.0109589041096  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4086682210205  </Strike>
+              <BlackVol>   0.0040880545329  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0058247340118  </CalibratedPremium>
+              <CalibratedVolatility>   0.0040880545329  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138958492461  </SpotSwapRate>
+                <FixLeg>   6.4589793003160  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0165457941687  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  27.0219178082192 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  28.0246575342466 ;  -0.0141274467336 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  29.0246575342466 ;  -0.0140888471523 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  30.0301369863014 ;  -0.0141660463148 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  31.0273972602740 ;  -0.0140502475711 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  32.0273972602740 ;  -0.0140888471523 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  33.0273972602740 ;  -0.0140888471523 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  34.0273972602740 ;  -0.0140888471523 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  35.0273972602740 ;  -0.0140888471523 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  36.0328767123288 ;  -0.0141660463148 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  37.0301369863014 ;  -0.0140502475711 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  37.0301369863014 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  28.0191780821918  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4089195874864  </Strike>
+              <BlackVol>   0.0040427607964  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0057836953086  </CalibratedPremium>
+              <CalibratedVolatility>   0.0040427607964  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138729627065  </SpotSwapRate>
+                <FixLeg>   6.3675341269040  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0165574645738  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  28.0246575342466 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  29.0246575342466 ;  -0.0140656427441 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  30.0301369863014 ;  -0.0141427147591 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  31.0273972602740 ;  -0.0140271067366 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  32.0273972602740 ;  -0.0140656427441 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  33.0273972602740 ;  -0.0140656427441 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  34.0273972602740 ;  -0.0140656427441 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  35.0273972602740 ;  -0.0140656427441 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  36.0328767123288 ;  -0.0141427147591 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  37.0301369863014 ;  -0.0140271067366 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  38.0301369863014 ;  -0.0140656427441 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  38.0301369863014 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  29.0191780821918  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4090898813497  </Strike>
+              <BlackVol>   0.0039978363023  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0057387885012  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039978363023  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138479196212  </SpotSwapRate>
+                <FixLeg>   6.2793701880780  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0165671772124  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  29.0246575342466 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  30.0301369863014 ;  -0.0141171847250 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  31.0273972602740 ;  -0.0140017853948 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  32.0273972602740 ;  -0.0140402518382 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  33.0273972602740 ;  -0.0140402518382 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  34.0273972602740 ;  -0.0140402518382 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  35.0273972602740 ;  -0.0140402518382 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  36.0328767123288 ;  -0.0141171847250 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  37.0301369863014 ;  -0.0140017853948 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  38.0301369863014 ;  -0.0140402518382 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  39.0301369863014 ;  -0.0140402518382 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  39.0301369863014 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  30.0191780821918  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4091689677108  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0056900291795  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138205139143  </SpotSwapRate>
+                <FixLeg>   6.1952636905942  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0165759644344  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  30.0301369863014 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  31.0301369863014 ;  -0.0140124654965 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  32.0328767123288 ;  -0.0140508558129 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  33.0328767123288 ;  -0.0140124654965 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  34.0301369863014 ;  -0.0139740751800 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  35.0356164383562 ;  -0.0140892461293 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  36.0356164383562 ;  -0.0140124654965 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  37.0356164383562 ;  -0.0140124654965 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  38.0356164383562 ;  -0.0140124654965 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  39.0356164383562 ;  -0.0140124654965 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  40.0410958904110 ;  -0.0140892461293 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  40.0410958904110 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  31.0164383561644  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4094210985301  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0057040470903  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138205168770  </SpotSwapRate>
+                <FixLeg>   6.1098846492147  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0166675407965  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  31.0273972602740 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  32.0301369863014 ;  -0.0140508588249 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  33.0301369863014 ;  -0.0140124685002 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  34.0301369863014 ;  -0.0140124685002 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  35.0356164383562 ;  -0.0140892491496 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  36.0328767123288 ;  -0.0139740781756 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  37.0328767123288 ;  -0.0140124685002 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  38.0328767123288 ;  -0.0140124685002 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  39.0328767123288 ;  -0.0140124685002 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  40.0410958904110 ;  -0.0141276394742 ;   1.0222222222222 ; FixFleg </Flow>
+                <Flow>  41.0383561643836 ;  -0.0139740781756 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  41.0383561643836 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  32.0164383561644  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4096112114826  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0057151863983  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138204888414  </SpotSwapRate>
+                <FixLeg>   6.0239291996160  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0167584481641  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  32.0273972602740 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  33.0273972602740 ;  -0.0140124400753 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  34.0273972602740 ;  -0.0140124400753 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  35.0273972602740 ;  -0.0140124400753 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  36.0328767123288 ;  -0.0140892205688 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  37.0301369863014 ;  -0.0139740498285 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  38.0301369863014 ;  -0.0140124400753 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  39.0301369863014 ;  -0.0140124400753 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  40.0328767123288 ;  -0.0140508303221 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  41.0383561643836 ;  -0.0140892205688 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  42.0356164383562 ;  -0.0139740498285 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  42.0356164383562 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  33.0219178082192  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4097500324759  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0057235920813  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138204652684  </SpotSwapRate>
+                <FixLeg>   5.9391806316179  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0168461271304  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  33.0273972602740 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  34.0273972602740 ;  -0.0140124161749 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  35.0273972602740 ;  -0.0140124161749 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  36.0328767123288 ;  -0.0140891965375 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  37.0301369863014 ;  -0.0139740259936 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  38.0301369863014 ;  -0.0140124161749 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  39.0301369863014 ;  -0.0140124161749 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  40.0328767123288 ;  -0.0140508063562 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  41.0383561643836 ;  -0.0140891965375 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  42.0356164383562 ;  -0.0139740259936 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  43.0328767123288 ;  -0.0139740259936 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  43.0328767123288 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  34.0219178082192  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4098353787800  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0057293278534  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138204908598  </SpotSwapRate>
+                <FixLeg>   5.8585925904121  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0169386540046  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  34.0273972602740 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  35.0273972602740 ;  -0.0140124421218 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  36.0328767123288 ;  -0.0140892226265 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  37.0301369863014 ;  -0.0139740518694 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  38.0301369863014 ;  -0.0140124421218 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  39.0301369863014 ;  -0.0140124421218 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  40.0328767123288 ;  -0.0140508323742 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  41.0383561643836 ;  -0.0140892226265 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  42.0356164383562 ;  -0.0139740518694 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  43.0328767123288 ;  -0.0139740518694 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  44.0356164383562 ;  -0.0140508323742 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  44.0356164383562 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  35.0219178082192  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4098629259139  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0057325914668  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138204919949  </SpotSwapRate>
+                <FixLeg>   5.7776338242005  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0170303264118  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  35.0273972602740 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  36.0328767123288 ;  -0.0140892237837 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  37.0301369863014 ;  -0.0139740530171 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  38.0301369863014 ;  -0.0140124432726 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  39.0301369863014 ;  -0.0140124432726 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  40.0328767123288 ;  -0.0140508335282 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  41.0383561643836 ;  -0.0140892237837 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  42.0356164383562 ;  -0.0139740530171 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  43.0328767123288 ;  -0.0139740530171 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  44.0356164383562 ;  -0.0140508335282 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  45.0356164383562 ;  -0.0140124432726 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  45.0356164383562 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  36.0219178082192  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4098341927513  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0057335182259  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138205139884  </SpotSwapRate>
+                <FixLeg>   5.6988043160629  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0171269493807  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  36.0328767123288 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  37.0328767123288 ;  -0.0140124655716 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  38.0328767123288 ;  -0.0140124655716 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  39.0328767123288 ;  -0.0140124655716 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  40.0410958904110 ;  -0.0141276365215 ;   1.0222222222222 ; FixFleg </Flow>
+                <Flow>  41.0383561643836 ;  -0.0139740752550 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  42.0356164383562 ;  -0.0139740752550 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  43.0356164383562 ;  -0.0140124655716 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  44.0383561643836 ;  -0.0140508558882 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  45.0383561643836 ;  -0.0140124655716 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  46.0438356164384 ;  -0.0140892462049 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  46.0438356164384 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  37.0191780821918  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4097464667280  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0057322414617  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138205144300  </SpotSwapRate>
+                <FixLeg>   5.6202681758237  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0172184993898  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  37.0301369863014 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  38.0301369863014 ;  -0.0140124660193 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  39.0301369863014 ;  -0.0140124660193 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  40.0328767123288 ;  -0.0140508563372 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  41.0383561643836 ;  -0.0140892466550 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  42.0356164383562 ;  -0.0139740757014 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  43.0328767123288 ;  -0.0139740757014 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  44.0356164383562 ;  -0.0140508563372 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  45.0356164383562 ;  -0.0140124660193 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  46.0356164383562 ;  -0.0140124660193 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  47.0410958904110 ;  -0.0140892466550 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  47.0410958904110 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  38.0191780821918  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4096001848721  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0057288731119  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138204912293  </SpotSwapRate>
+                <FixLeg>   5.5411988398675  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0173093277523  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  38.0301369863014 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  39.0301369863014 ;  -0.0140124424964 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  40.0328767123288 ;  -0.0140508327498 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  41.0383561643836 ;  -0.0140892230032 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  42.0356164383562 ;  -0.0139740522430 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  43.0328767123288 ;  -0.0139740522430 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  44.0356164383562 ;  -0.0140508327498 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  45.0356164383562 ;  -0.0140124424964 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  46.0356164383562 ;  -0.0140124424964 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  47.0410958904110 ;  -0.0140892230032 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  48.0383561643836 ;  -0.0139740522430 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  48.0383561643836 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  39.0246575342466  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4093979203964  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0057234913284  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138204923696  </SpotSwapRate>
+                <FixLeg>   5.4646260749109  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0173971941560  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  39.0301369863014 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  40.0328767123288 ;  -0.0140508339091 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  41.0383561643836 ;  -0.0140892241657 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  42.0356164383562 ;  -0.0139740533959 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  43.0328767123288 ;  -0.0139740533959 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  44.0356164383562 ;  -0.0140508339091 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  45.0356164383562 ;  -0.0140124436525 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  46.0356164383562 ;  -0.0140124436525 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  47.0410958904110 ;  -0.0140892241657 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  48.0383561643836 ;  -0.0139740533959 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  49.0383561643836 ;  -0.0140124436525 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  49.0383561643836 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  40.0273972602740  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4091299699434  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0057162386103  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138204650035  </SpotSwapRate>
+                <FixLeg>   5.3875422308815  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0174880116720  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  40.0328767123288 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  41.0383561643836 ;  -0.0140891962675 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  42.0356164383562 ;  -0.0139740257258 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  43.0328767123288 ;  -0.0139740257258 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  44.0356164383562 ;  -0.0140508060869 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  45.0356164383562 ;  -0.0140124159064 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  46.0356164383562 ;  -0.0140124159064 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  47.0410958904110 ;  -0.0140891962675 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  48.0383561643836 ;  -0.0139740257258 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  49.0383561643836 ;  -0.0140124159064 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  50.0383561643836 ;  -0.0140124159064 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  50.0383561643836 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  41.0273972602740  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4092466378244  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0057072304340  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138204388646  </SpotSwapRate>
+                <FixLeg>   5.3113423688855  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0175831982224  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  41.0383561643836 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  42.0383561643836 ;  -0.0140123894044 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  43.0383561643836 ;  -0.0140123894044 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  44.0410958904110 ;  -0.0140507795123 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  45.0383561643836 ;  -0.0139739992964 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  46.0438356164384 ;  -0.0140891696203 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  47.0410958904110 ;  -0.0139739992964 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  48.0438356164384 ;  -0.0140507795123 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  49.0438356164384 ;  -0.0140123894044 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  50.0438356164384 ;  -0.0140123894044 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  51.0410958904110 ;  -0.0139739992964 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  51.0410958904110 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  42.0246575342466  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4093586023527  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0056965750604  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138205150330  </SpotSwapRate>
+                <FixLeg>   5.2421284991537  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0176779669195  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  42.0356164383562 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  43.0356164383562 ;  -0.0140124666307 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  44.0383561643836 ;  -0.0140508569502 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  45.0383561643836 ;  -0.0140124666307 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  46.0438356164384 ;  -0.0140892472698 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  47.0410958904110 ;  -0.0139740763112 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  48.0410958904110 ;  -0.0140124666307 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  49.0410958904110 ;  -0.0140124666307 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  50.0410958904110 ;  -0.0140124666307 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  51.0410958904110 ;  -0.0140124666307 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  52.0465753424658 ;  -0.0140892472698 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  52.0465753424658 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  43.0219178082192  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4094314303452  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0056843383934  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138205168770  </SpotSwapRate>
+                <FixLeg>   5.1698853573243  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0177695334486  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  43.0328767123288 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  44.0356164383562 ;  -0.0140508588249 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  45.0356164383562 ;  -0.0140124685002 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  46.0356164383562 ;  -0.0140124685002 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  47.0410958904110 ;  -0.0140892491496 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  48.0383561643836 ;  -0.0139740781756 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  49.0383561643836 ;  -0.0140124685002 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  50.0383561643836 ;  -0.0140124685002 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  51.0383561643836 ;  -0.0140124685002 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  52.0465753424658 ;  -0.0141276394742 ;   1.0222222222222 ; FixFleg </Flow>
+                <Flow>  53.0438356164384 ;  -0.0139740781756 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  53.0438356164384 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  44.0301369863014  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4094723577358  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0056704449671  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138204651890  </SpotSwapRate>
+                <FixLeg>   5.0956680630016  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0178547591239  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  44.0356164383562 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  45.0356164383562 ;  -0.0140124160944 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  46.0356164383562 ;  -0.0140124160944 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  47.0410958904110 ;  -0.0140891964565 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  48.0383561643836 ;  -0.0139740259133 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  49.0383561643836 ;  -0.0140124160944 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  50.0383561643836 ;  -0.0140124160944 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  51.0383561643836 ;  -0.0140124160944 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  52.0465753424658 ;  -0.0141275866376 ;   1.0222222222222 ; FixFleg </Flow>
+                <Flow>  53.0438356164384 ;  -0.0139740259133 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  54.0410958904110 ;  -0.0139740259133 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  54.0410958904110 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  45.0301369863014  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4094874498454  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0056552330520  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138204659643  </SpotSwapRate>
+                <FixLeg>   5.0252521351541  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0179464036155  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  45.0356164383562 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  46.0356164383562 ;  -0.0140124168805 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  47.0410958904110 ;  -0.0140891972470 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  48.0383561643836 ;  -0.0139740266973 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  49.0383561643836 ;  -0.0140124168805 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  50.0383561643836 ;  -0.0140124168805 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  51.0383561643836 ;  -0.0140124168805 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  52.0465753424658 ;  -0.0141275874302 ;   1.0222222222222 ; FixFleg </Flow>
+                <Flow>  53.0438356164384 ;  -0.0139740266973 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  54.0410958904110 ;  -0.0139740266973 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  55.0410958904110 ;  -0.0140124168805 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  55.0410958904110 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  46.0301369863014  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4094741937652  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0056386710294  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138204915654  </SpotSwapRate>
+                <FixLeg>   4.9570650784455  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0180392407628  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  46.0356164383562 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  47.0410958904110 ;  -0.0140892233458 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  48.0383561643836 ;  -0.0139740525828 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  49.0383561643836 ;  -0.0140124428371 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  50.0383561643836 ;  -0.0140124428371 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  51.0383561643836 ;  -0.0140124428371 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  52.0465753424658 ;  -0.0141276136002 ;   1.0222222222222 ; FixFleg </Flow>
+                <Flow>  53.0438356164384 ;  -0.0139740525828 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  54.0410958904110 ;  -0.0139740525828 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  55.0410958904110 ;  -0.0140124428371 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  56.0438356164384 ;  -0.0140508330915 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  56.0438356164384 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  47.0301369863014  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4094150252989  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0056208306060  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138205143031  </SpotSwapRate>
+                <FixLeg>   4.8894310720163  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0181374056573  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  47.0410958904110 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  48.0438356164384 ;  -0.0140508562082 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  49.0438356164384 ;  -0.0140124658907 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  50.0438356164384 ;  -0.0140124658907 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  51.0410958904110 ;  -0.0139740755732 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  52.0465753424658 ;  -0.0140892465257 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  53.0465753424658 ;  -0.0140124658907 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  54.0465753424658 ;  -0.0140124658907 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  55.0465753424658 ;  -0.0140124658907 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  56.0465753424658 ;  -0.0140124658907 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  57.0520547945206 ;  -0.0140892465257 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  57.0520547945206 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  48.0273972602740  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4093513306628  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0056018336665  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138205139884  </SpotSwapRate>
+                <FixLeg>   4.8220492986978  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0182289268593  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  48.0383561643836 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  49.0383561643836 ;  -0.0140124655716 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  50.0383561643836 ;  -0.0140124655716 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  51.0383561643836 ;  -0.0140124655716 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  52.0465753424658 ;  -0.0141276365215 ;   1.0222222222222 ; FixFleg </Flow>
+                <Flow>  53.0438356164384 ;  -0.0139740752550 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  54.0410958904110 ;  -0.0139740752550 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  55.0410958904110 ;  -0.0140124655716 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  56.0438356164384 ;  -0.0140508558882 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  57.0438356164384 ;  -0.0140124655716 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  58.0493150684932 ;  -0.0140892462049 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  58.0493150684932 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+            <CalibrationInstrument>
+              <Type> Instrument </Type>
+              <OptionType> AssetPut </OptionType>
+              <CalibrationLevel> 0 </CalibrationLevel>
+              <OptionExpiry>  49.0273972602740  </OptionExpiry>
+              <FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+              <FXDeltaConvention> 0 </FXDeltaConvention>
+              <ForwardDate>   0.0000000000000  </ForwardDate>
+              <OptionDelivery>   0.0000000000000  </OptionDelivery>
+              <Strike>   1.4092436824263  </Strike>
+              <BlackVol>   0.0039529118082  </BlackVol>
+              <VolModel> Normal </VolModel>
+              <BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+              <ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+              <ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+              <Weight>   0.0000000000000  </Weight>
+              <BasicDyn>Fixed </BasicDyn>
+              <PayReceive> Payer </PayReceive>
+              <CalInstKType> ATM </CalInstKType>
+              <CalInstStatus> Unknown </CalInstStatus>
+              <CalibratedPremium>   0.0055816404062  </CalibratedPremium>
+              <CalibratedVolatility>   0.0039529118082  </CalibratedVolatility>
+              <CalInstTenor> 6 </CalInstTenor>
+              <SwapRateInfo>
+                <SpotSwapRate>   0.0138204907815  </SpotSwapRate>
+                <FixLeg>   4.7542097914205  </FixLeg>
+                <FwdSwapRateCmsRep>   0.0183194820245  </FwdSwapRateCmsRep>
+                <FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+              </SwapRateInfo>
+              <FlowsNb> 12 </FlowsNb>
+              <Flows>
+                <Flow>  49.0383561643836 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+                <Flow>  50.0383561643836 ;  -0.0140124420423 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  51.0383561643836 ;  -0.0140124420423 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  52.0465753424658 ;  -0.0141276127988 ;   1.0222222222222 ; FixFleg </Flow>
+                <Flow>  53.0438356164384 ;  -0.0139740517901 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  54.0410958904110 ;  -0.0139740517901 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  55.0410958904110 ;  -0.0140124420423 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  56.0438356164384 ;  -0.0140508322945 ;   1.0166666666667 ; FixFleg </Flow>
+                <Flow>  57.0438356164384 ;  -0.0140124420423 ;   1.0138888888889 ; FixFleg </Flow>
+                <Flow>  58.0493150684932 ;  -0.0140892225466 ;   1.0194444444444 ; FixFleg </Flow>
+                <Flow>  59.0465753424658 ;  -0.0139740517901 ;   1.0111111111111 ; FixFleg </Flow>
+                <Flow>  59.0465753424658 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+              </Flows>
+            </CalibrationInstrument>
+          </CalibrationInstruments>
+        </CalibrationBasket>
+        <Beta>0.000000</Beta>
+        <CapSmile>0</CapSmile>
+        <VolType> VolFwdFwd </VolType>
+        <ModelType> BS </ModelType>
+        <PositiveRates>0</PositiveRates>
+        <AssetType> Rate </AssetType>
+        <AssetProxyType> Rate </AssetProxyType>
+        <IsRisky> No </IsRisky>
+        <DSCCreditBased> 0 </DSCCreditBased>
+        <CMSResults>
+          <TwoDCurve>
+            <InterpolationMethod>Linear </InterpolationMethod>
+            <NumberOfElements> 1 </NumberOfElements>
+            <Buckets> 10.0000000000000 </Buckets>
+            <Values>
+              <OneDCurve>
+                <InterpolationMethod> Linear </InterpolationMethod>
+                <NumberOfElements> 30 </NumberOfElements>
+                <Buckets> 20.0082191780822  ;  21.0082191780822  ;  22.0136986301370  ;  23.0136986301370  ;  24.0164383561644  ;  25.0136986301370  ;  26.0109589041096  ;  27.0109589041096  ;  28.0191780821918  ;  29.0191780821918  ;  30.0191780821918  ;  31.0164383561644  ;  32.0164383561644  ;  33.0219178082192  ;  34.0219178082192  ;  35.0219178082192  ;  36.0219178082192  ;  37.0191780821918  ;  38.0191780821918  ;  39.0246575342466  ;  40.0273972602740  ;  41.0273972602740  ;  42.0246575342466  ;  43.0219178082192  ;  44.0301369863014  ;  45.0301369863014  ;  46.0301369863014  ;  47.0301369863014  ;  48.0273972602740  ;  49.0273972602740 </Buckets>
+                <Values>  0.0159428890497  ;   0.0159583869537  ;   0.0159664965328  ;   0.0159621683733  ;   0.0159588844900  ;   0.0159456292555  ;   0.0159613580727  ;   0.0159714389591  ;   0.0159796832858  ;   0.0159787435548  ;   0.0159821211990  ;   0.0160523042870  ;   0.0161234135079  ;   0.0161949341017  ;   0.0162677003873  ;   0.0163358901528  ;   0.0164143591539  ;   0.0164841925851  ;   0.0165552320455  ;   0.0166254849060  ;   0.0166943710624  ;   0.0167717366654  ;   0.0168466304533  ;   0.0169138473448  ;   0.0169864834123  ;   0.0170584085037  ;   0.0171265262868  ;   0.0172070497571  ;   0.0172762623096  ;   0.0173470420399 </Values>
+              </OneDCurve>
+            </Values>
+          </TwoDCurve>
+        </CMSResults>
+        <NonAdjCMSReults>
+          <TwoDCurve>
+            <InterpolationMethod>Linear </InterpolationMethod>
+            <NumberOfElements> 1 </NumberOfElements>
+            <Buckets> 10.0000000000000 </Buckets>
+            <Values>
+              <OneDCurve>
+                <InterpolationMethod> Linear </InterpolationMethod>
+                <NumberOfElements> 30 </NumberOfElements>
+                <Buckets> 20.0082191780822  ;  21.0082191780822  ;  22.0136986301370  ;  23.0136986301370  ;  24.0164383561644  ;  25.0136986301370  ;  26.0109589041096  ;  27.0109589041096  ;  28.0191780821918  ;  29.0191780821918  ;  30.0191780821918  ;  31.0164383561644  ;  32.0164383561644  ;  33.0219178082192  ;  34.0219178082192  ;  35.0219178082192  ;  36.0219178082192  ;  37.0191780821918  ;  38.0191780821918  ;  39.0246575342466  ;  40.0273972602740  ;  41.0273972602740  ;  42.0246575342466  ;  43.0219178082192  ;  44.0301369863014  ;  45.0301369863014  ;  46.0301369863014  ;  47.0301369863014  ;  48.0273972602740  ;  49.0273972602740 </Buckets>
+                <Values>  0.0140391458234  ;   0.0140244917560  ;   0.0140067746486  ;   0.0139859838738  ;   0.0139618808155  ;   0.0139348460862  ;   0.0139164578762  ;   0.0138958495077  ;   0.0138729633207  ;   0.0138479202643  ;   0.0138205138637  ;   0.0138205168343  ;   0.0138204891166  ;   0.0138204658529  ;   0.0138204911895  ;   0.0138204923505  ;   0.0138205139612  ;   0.0138205143943  ;   0.0138204914984  ;   0.0138204926637  ;   0.0138204656496  ;   0.0138204383962  ;   0.0138205149888  ;   0.0138205168343  ;   0.0138204657776  ;   0.0138204665824  ;   0.0138204919291  ;   0.0138205142481  ;   0.0138205139612  ;   0.0138204910591 </Values>
+              </OneDCurve>
+            </Values>
+          </TwoDCurve>
+        </NonAdjCMSReults>
+      </Process>
+    </Processes>
+  </ProcessesList>
+  <WorkOnGpu> No </WorkOnGpu>
+  <QueriesList>
+    <NumberOfElements> 1 </NumberOfElements>
+    <Queries>
+      <Query>
+        <QRType> Npv </QRType>
+        <QRAssetType> Rate </QRAssetType>
+        <QRAsset> 0 </QRAsset>
+        <QRLevel> 0 </QRLevel>
+        <QRCalibrate> 1 </QRCalibrate>
+        <QueryGenerateAnalyticalSns> 0 </QueryGenerateAnalyticalSns>
+        <ExcludeAnalyticalSnsCompuation> 0 </ExcludeAnalyticalSnsCompuation>
+        <TermStructureAsOneBump> 0 </TermStructureAsOneBump>
+        <SausageMode> 0 </SausageMode>
+        <QRResultsList>
+          <NumberOfElements> 1 </NumberOfElements>
+          <QRResults>
+            <QRResult>
+              <QRResultID> 0 </QRResultID>
+              <VariablesList>
+                <NumberOfElements> 1 </NumberOfElements>
+                <Variables>
+                  <Variable>
+                    <VariableDescription>Underlying ; Discounted ; Contract ; Double </VariableDescription>
+                    <ComputeValue> Yes </ComputeValue>
+                    <ComputeExpectationArray> No </ComputeExpectationArray>
+                    <ComputeVarianceArray> No </ComputeVarianceArray>
+                    <VariableValue> -46161.3593598389489 </VariableValue>
+                    <VariableSns>
+                      <NumberOfElements> 150 </NumberOfElements>
+                      <VariableSnsList>
+                        <ASns> 0 ; 0 ; 0 ; 49.027397 ; 10.008219 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; 148104199.1381654441357  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 49.027397 ; 10.008219 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013820 ; 35207677.2550492808223  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 49.027397 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 24939560.3390001319349  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 49.027397 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 10268116.9160491563380  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 49.027397 ; 10.008219 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; -130357358.6456347405910  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 48.027397 ; 10.010959 ; 0.000000 ; 0.013821 ; 0.000000 ; 0.013821 ; 148656204.1085492372513  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 48.027397 ; 10.010959 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013821 ; 34879643.4185230433941  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 48.027397 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013821 ; 24781294.2433749996126  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 48.027397 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013821 ; 10098349.1751480493695  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 48.027397 ; 10.010959 ; 0.000000 ; 0.013821 ; 0.000000 ; 0.013821 ; -130812771.9800389111042  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 47.030137 ; 10.010959 ; 0.000000 ; 0.013821 ; 0.000000 ; 0.013821 ; 148355170.3780981898308  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 47.030137 ; 10.010959 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013821 ; 34363316.5565239638090  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 47.030137 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013821 ; 24488449.2252002023160  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 47.030137 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013821 ; 9874867.3313237950206  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 47.030137 ; 10.010959 ; 0.000000 ; 0.013821 ; 0.000000 ; 0.013821 ; -130514301.6363541930914  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 46.030137 ; 10.008219 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; 150469148.9784460663795  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 46.030137 ; 10.008219 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013820 ; 34289663.9381015375257  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 46.030137 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 24511238.0741189718246  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 46.030137 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 9778425.8639825712889  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 46.030137 ; 10.008219 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; -132400415.6429577320814  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 45.030137 ; 10.005479 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; 150106118.8000120222569  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 45.030137 ; 10.005479 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013820 ; 33762970.1624636948109  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 45.030137 ; 10.005479 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 24210136.2087033651769  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 45.030137 ; 10.005479 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 9552833.9537603370845  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 45.030137 ; 10.005479 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; -132048403.2601585239172  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 44.030137 ; 10.005479 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; 150514506.3547515869141  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 44.030137 ; 10.005479 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013820 ; 33369825.8888796530664  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 44.030137 ; 10.005479 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 24004062.9232074730098  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 44.030137 ; 10.005479 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 9365762.9656721577048  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 44.030137 ; 10.005479 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; -132398978.3488544672728  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 43.021918 ; 10.010959 ; 0.000000 ; 0.013821 ; 0.000000 ; 0.013821 ; 150867818.5263042449951  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 43.021918 ; 10.010959 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013821 ; 32953672.6805793941021  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 43.021918 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013821 ; 23781596.2093351781368  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 43.021918 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013821 ; 9172076.4712442010641  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 43.021918 ; 10.010959 ; 0.000000 ; 0.013821 ; 0.000000 ; 0.013821 ; -132706411.5124457031488  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 42.024658 ; 10.010959 ; 0.000000 ; 0.013821 ; 0.000000 ; 0.013821 ; 150797409.4595017135143  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 42.024658 ; 10.010959 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013821 ; 32494006.3598532974720  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 42.024658 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013821 ; 23526207.5486013926566  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 42.024658 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013821 ; 8967798.8112518843263  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 42.024658 ; 10.010959 ; 0.000000 ; 0.013821 ; 0.000000 ; 0.013821 ; -132619477.4159940928221  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 41.027397 ; 10.002740 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; 151067432.7699157893658  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 41.027397 ; 10.002740 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013820 ; 32027658.0515068396926  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 41.027397 ; 10.002740 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 23265169.6686894036829  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 41.027397 ; 10.002740 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 8762488.3828174397349  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 41.027397 ; 10.002740 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; -132879581.9036720991135  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 40.027397 ; 10.005479 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; 152541635.9026959836483  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 40.027397 ; 10.005479 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013820 ; 31780864.2105482593179  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 40.027397 ; 10.005479 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 23163618.5842856019735  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 40.027397 ; 10.005479 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 8617245.6262626629323  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 40.027397 ; 10.005479 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; -134219183.8957668542862  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 39.024658 ; 10.008219 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; 151898979.9194366037846  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 39.024658 ; 10.008219 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013820 ; 31175115.9712175875902  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 39.024658 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 22800054.8594249375165  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 39.024658 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 8375061.1117926314473  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 39.024658 ; 10.008219 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; -133650241.5807516127825  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 38.019178 ; 10.008219 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; 152031620.0743670463562  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 38.019178 ; 10.008219 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013820 ; 30714035.1330648884177  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 38.019178 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 22541362.4839720055461  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 38.019178 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 8172672.6490928921849  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 38.019178 ; 10.008219 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; -133775206.4152051359415  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 37.019178 ; 10.010959 ; 0.000000 ; 0.013821 ; 0.000000 ; 0.013821 ; 152109904.2874623835087  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 37.019178 ; 10.010959 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013821 ; 30228246.8035927303135  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 37.019178 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013821 ; 22263274.2735554464161  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 37.019178 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013821 ; 7964972.5300373062491  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 37.019178 ; 10.010959 ; 0.000000 ; 0.013821 ; 0.000000 ; 0.013821 ; -133864965.2622188180685  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 36.021918 ; 10.010959 ; 0.000000 ; 0.013821 ; 0.000000 ; 0.013821 ; 151716569.1645114719868  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 36.021918 ; 10.010959 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013821 ; 29658950.7807281352580  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 36.021918 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013821 ; 21922320.9181715324521  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 36.021918 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013821 ; 7736629.8625566130504  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 36.021918 ; 10.010959 ; 0.000000 ; 0.013821 ; 0.000000 ; 0.013821 ; -133538319.8144499063492  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 35.021918 ; 10.008219 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; 152487490.3612491488457  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 35.021918 ; 10.008219 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013820 ; 29219420.1033993884921  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 35.021918 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 21676472.0781017430127  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 35.021918 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 7542948.0252976398915  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 35.021918 ; 10.008219 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; -134299263.6774502098560  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 34.021918 ; 10.008219 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; 151979763.5488482713699  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 34.021918 ; 10.008219 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013820 ; 28641284.1908751167357  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 34.021918 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 21326750.1499895825982  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 34.021918 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 7314534.0408855266869  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 34.021918 ; 10.008219 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; -133871543.9640805721283  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 33.021918 ; 10.005479 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; 151797190.2223928868771  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 33.021918 ; 10.005479 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013820 ; 28072812.7797114551067  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 33.021918 ; 10.005479 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 20982788.3571138419211  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 33.021918 ; 10.005479 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 7090024.4225976103917  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 33.021918 ; 10.005479 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; -133767944.4651813805103  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 32.016438 ; 10.008219 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; 151534512.6425380408764  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 32.016438 ; 10.008219 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013820 ; 27501491.2814121656120  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 32.016438 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 20635726.4365243539214  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 32.016438 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013820 ; 6865764.8448878098279  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 32.016438 ; 10.008219 ; 0.000000 ; 0.013820 ; 0.000000 ; 0.013820 ; -133589499.5956404656172  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 31.016438 ; 10.010959 ; 0.000000 ; 0.013821 ; 0.000000 ; 0.013821 ; 150787526.8794125914574  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 31.016438 ; 10.010959 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013821 ; 26844440.7921667285264  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 31.016438 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013821 ; 20222186.4563814029098  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 31.016438 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013821 ; 6622254.3357853321359  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 31.016438 ; 10.010959 ; 0.000000 ; 0.013821 ; 0.000000 ; 0.013821 ; -132990290.7650685757399  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 30.019178 ; 10.010959 ; 0.000000 ; 0.013821 ; 0.000000 ; 0.013821 ; 150390171.5894853770733  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 30.019178 ; 10.010959 ; 0.000000 ; 0.027641 ; 0.000000 ; 0.013821 ; 26259212.6653840243816  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 30.019178 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013821 ; 19860735.7438353449106  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 30.019178 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013821 ; 6398476.9215486897156  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 30.019178 ; 10.010959 ; 0.000000 ; 0.013821 ; 0.000000 ; 0.013821 ; -132700219.7980005294085  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 29.019178 ; 10.005479 ; 0.000000 ; 0.013848 ; 0.000000 ; 0.013848 ; 151154502.8565737605095  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 29.019178 ; 10.005479 ; 0.000000 ; 0.027696 ; 0.000000 ; 0.013848 ; 26120483.5364761240780  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 29.019178 ; 10.005479 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013848 ; 19792419.8209160193801  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 29.019178 ; 10.005479 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013848 ; 6328063.7155601130798  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 29.019178 ; 10.005479 ; 0.000000 ; 0.013848 ; 0.000000 ; 0.013848 ; -133428591.9209835380316  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 28.019178 ; 10.005479 ; 0.000000 ; 0.013873 ; 0.000000 ; 0.013873 ; 149833295.6628057956696  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 28.019178 ; 10.005479 ; 0.000000 ; 0.027746 ; 0.000000 ; 0.013873 ; 25710671.4852100536227  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 28.019178 ; 10.005479 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013873 ; 19520351.7129635997117  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 28.019178 ; 10.005479 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013873 ; 6190319.7722464660183  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 28.019178 ; 10.005479 ; 0.000000 ; 0.013873 ; 0.000000 ; 0.013873 ; -132249530.6503478139639  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 27.010959 ; 10.008219 ; 0.000000 ; 0.013896 ; 0.000000 ; 0.013896 ; 149196493.3657155632973  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 27.010959 ; 10.008219 ; 0.000000 ; 0.027792 ; 0.000000 ; 0.013896 ; 25353401.7263217456639  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 27.010959 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013896 ; 19289931.9493049234152  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 27.010959 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013896 ; 6063469.7770168157294  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 27.010959 ; 10.008219 ; 0.000000 ; 0.013896 ; 0.000000 ; 0.013896 ; -131712730.5459202528000  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 26.010959 ; 10.010959 ; 0.000000 ; 0.013916 ; 0.000000 ; 0.013916 ; 148494595.6432518362999  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 26.010959 ; 10.010959 ; 0.000000 ; 0.027833 ; 0.000000 ; 0.013916 ; 25003577.7507784664631  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 26.010959 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013916 ; 19066501.4901181831956  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 26.010959 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013916 ; 5937076.2606602832675  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 26.010959 ; 10.010959 ; 0.000000 ; 0.013916 ; 0.000000 ; 0.013916 ; -131101019.1535119265318  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 25.013699 ; 10.010959 ; 0.000000 ; 0.013935 ; 0.000000 ; 0.013935 ; 147269535.8752130270004  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 25.013699 ; 10.010959 ; 0.000000 ; 0.027870 ; 0.000000 ; 0.013935 ; 24541103.7302091680467  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 25.013699 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013935 ; 18758456.8821285590529  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 25.013699 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013935 ; 5782646.8480806071311  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 25.013699 ; 10.010959 ; 0.000000 ; 0.013935 ; 0.000000 ; 0.013935 ; -130039959.5226478576660  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 24.016438 ; 10.002740 ; 0.000000 ; 0.013962 ; 0.000000 ; 0.013962 ; 146340890.7097959816456  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 24.016438 ; 10.002740 ; 0.000000 ; 0.027924 ; 0.000000 ; 0.013962 ; 24262644.7006977535784  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 24.016438 ; 10.002740 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013962 ; 18566630.0333590805531  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 24.016438 ; 10.002740 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013962 ; 5696014.6673386665061  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 24.016438 ; 10.002740 ; 0.000000 ; 0.013962 ; 0.000000 ; 0.013962 ; -129232510.7404063493013  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 23.013699 ; 10.008219 ; 0.000000 ; 0.013986 ; 0.000000 ; 0.013986 ; 146486236.9630949795246  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 23.013699 ; 10.008219 ; 0.000000 ; 0.027972 ; 0.000000 ; 0.013986 ; 24102380.2214357331395  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 23.013699 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013986 ; 18469025.6815467625856  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 23.013699 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.013986 ; 5633354.5398889835924  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 23.013699 ; 10.008219 ; 0.000000 ; 0.013986 ; 0.000000 ; 0.013986 ; -129402362.7423139959574  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 22.013699 ; 10.008219 ; 0.000000 ; 0.014007 ; 0.000000 ; 0.014007 ; 144536753.5420741140842  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 22.013699 ; 10.008219 ; 0.000000 ; 0.028014 ; 0.000000 ; 0.014007 ; 23669327.2268172800541  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 22.013699 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.014007 ; 18165869.7203801348805  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 22.013699 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.014007 ; 5503457.5064371433109  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 22.013699 ; 10.008219 ; 0.000000 ; 0.014007 ; 0.000000 ; 0.014007 ; -127658439.9773893803358  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 21.008219 ; 10.008219 ; 0.000000 ; 0.014024 ; 0.000000 ; 0.014024 ; 143194420.2031791210175  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 21.008219 ; 10.008219 ; 0.000000 ; 0.028049 ; 0.000000 ; 0.014024 ; 23254144.4926359988749  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 21.008219 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.014024 ; 17879982.2597882375121  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 21.008219 ; 10.008219 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.014024 ; 5374162.2328477613628  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 21.008219 ; 10.008219 ; 0.000000 ; 0.014024 ; 0.000000 ; 0.014024 ; -126496363.0779324173927  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 20.008219 ; 10.010959 ; 0.000000 ; 0.014039 ; 0.000000 ; 0.014039 ; 141731767.8733639717102  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 20.008219 ; 10.010959 ; 0.000000 ; 0.028078 ; 0.000000 ; 0.014039 ; 22776222.2518699839711  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 20.008219 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.014039 ; 13080505.7642558943480  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 20.008219 ; 10.010959 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.014039 ; 9695716.4876140896231  </ASns>
+                        <ASns> 0 ; 0 ; 0 ; 20.008219 ; 10.010959 ; 0.000000 ; 0.014039 ; 0.000000 ; 0.014039 ; -125201006.9040569365025  </ASns>
+                      </VariableSnsList>
+                    </VariableSns>
+                  </Variable>
+                </Variables>
+              </VariablesList>
+            </QRResult>
+          </QRResults>
+        </QRResultsList>
+      </Query>
+    </Queries>
+  </QueriesList>
+  <ExptectedCashFlows>
+    <NumberOfElements> 60 </NumberOfElements>
+    <ExptectedCashFlowsList>
+      <Flow>29 ; 0 ; 0 ; 0 ; -1639019.212092 ; 49.038356 ; 50.038356 </Flow>
+      <Flow>1029 ; 0 ; 0 ; 0 ; 1734704.203987 ; 49.027397 ; 50.038356 </Flow>
+      <Flow>28 ; 0 ; 0 ; 0 ; -1639019.212092 ; 48.038356 ; 49.038356 </Flow>
+      <Flow>1028 ; 0 ; 0 ; 0 ; 1727626.230963 ; 48.027397 ; 49.038356 </Flow>
+      <Flow>27 ; 0 ; 0 ; 0 ; -1634528.748497 ; 47.041096 ; 48.038356 </Flow>
+      <Flow>1027 ; 0 ; 0 ; 0 ; 1711145.503618 ; 47.030137 ; 48.038356 </Flow>
+      <Flow>26 ; 0 ; 0 ; 0 ; -1648000.139281 ; 46.035616 ; 47.041096 </Flow>
+      <Flow>1026 ; 0 ; 0 ; 0 ; 1722167.365502 ; 46.030137 ; 47.041096 </Flow>
+      <Flow>25 ; 0 ; 0 ; 0 ; -1639019.212092 ; 45.035616 ; 46.035616 </Flow>
+      <Flow>1025 ; 0 ; 0 ; 0 ; 1705840.850367 ; 45.030137 ; 46.035616 </Flow>
+      <Flow>24 ; 0 ; 0 ; 0 ; -1639019.212092 ; 44.035616 ; 45.035616 </Flow>
+      <Flow>1024 ; 0 ; 0 ; 0 ; 1698648.341227 ; 44.030137 ; 45.035616 </Flow>
+      <Flow>23 ; 0 ; 0 ; 0 ; -1643509.675686 ; 43.032877 ; 44.035616 </Flow>
+      <Flow>1023 ; 0 ; 0 ; 0 ; 1691384.734476 ; 43.021918 ; 44.035616 </Flow>
+      <Flow>22 ; 0 ; 0 ; 0 ; -1634528.748497 ; 42.035616 ; 43.032877 </Flow>
+      <Flow>1022 ; 0 ; 0 ; 0 ; 1679983.425762 ; 42.024658 ; 43.032877 </Flow>
+      <Flow>21 ; 0 ; 0 ; 0 ; -1634528.748497 ; 41.038356 ; 42.035616 </Flow>
+      <Flow>1021 ; 0 ; 0 ; 0 ; 1672514.850799 ; 41.027397 ; 42.035616 </Flow>
+      <Flow>20 ; 0 ; 0 ; 0 ; -1648000.139281 ; 40.032877 ; 41.038356 </Flow>
+      <Flow>1020 ; 0 ; 0 ; 0 ; 1678711.756828 ; 40.027397 ; 41.038356 </Flow>
+      <Flow>19 ; 0 ; 0 ; 0 ; -1643509.675686 ; 39.030137 ; 40.032877 </Flow>
+      <Flow>1019 ; 0 ; 0 ; 0 ; 1662548.490602 ; 39.024658 ; 40.032877 </Flow>
+      <Flow>18 ; 0 ; 0 ; 0 ; -1639019.212092 ; 38.030137 ; 39.030137 </Flow>
+      <Flow>1018 ; 0 ; 0 ; 0 ; 1655523.204553 ; 38.019178 ; 39.030137 </Flow>
+      <Flow>17 ; 0 ; 0 ; 0 ; -1639019.212092 ; 37.030137 ; 38.030137 </Flow>
+      <Flow>1017 ; 0 ; 0 ; 0 ; 1648419.258508 ; 37.019178 ; 38.030137 </Flow>
+      <Flow>16 ; 0 ; 0 ; 0 ; -1634528.748497 ; 36.032877 ; 37.030137 </Flow>
+      <Flow>1016 ; 0 ; 0 ; 0 ; 1636876.371182 ; 36.021918 ; 37.030137 </Flow>
+      <Flow>15 ; 0 ; 0 ; 0 ; -1648000.139281 ; 35.027397 ; 36.032877 </Flow>
+      <Flow>1015 ; 0 ; 0 ; 0 ; 1638126.762544 ; 35.021918 ; 36.032877 </Flow>
+      <Flow>14 ; 0 ; 0 ; 0 ; -1639019.212092 ; 34.027397 ; 35.027397 </Flow>
+      <Flow>1014 ; 0 ; 0 ; 0 ; 1626770.038732 ; 34.021918 ; 35.027397 </Flow>
+      <Flow>13 ; 0 ; 0 ; 0 ; -1639019.212092 ; 33.027397 ; 34.027397 </Flow>
+      <Flow>1013 ; 0 ; 0 ; 0 ; 1619493.410168 ; 33.021918 ; 34.027397 </Flow>
+      <Flow>12 ; 0 ; 0 ; 0 ; -1639019.212092 ; 32.027397 ; 33.027397 </Flow>
+      <Flow>1012 ; 0 ; 0 ; 0 ; 1612341.350795 ; 32.016438 ; 33.027397 </Flow>
+      <Flow>11 ; 0 ; 0 ; 0 ; -1639019.212092 ; 31.027397 ; 32.027397 </Flow>
+      <Flow>1011 ; 0 ; 0 ; 0 ; 1600771.455291 ; 31.016438 ; 32.027397 </Flow>
+      <Flow>10 ; 0 ; 0 ; 0 ; -1634528.748497 ; 30.030137 ; 31.027397 </Flow>
+      <Flow>1010 ; 0 ; 0 ; 0 ; 1593772.641788 ; 30.019178 ; 31.027397 </Flow>
+      <Flow>9 ; 0 ; 0 ; 0 ; -1648000.139281 ; 29.024658 ; 30.030137 </Flow>
+      <Flow>1009 ; 0 ; 0 ; 0 ; 1606751.435235 ; 29.019178 ; 30.030137 </Flow>
+      <Flow>8 ; 0 ; 0 ; 0 ; -1639019.212092 ; 28.024658 ; 29.024658 </Flow>
+      <Flow>1008 ; 0 ; 0 ; 0 ; 1597968.328583 ; 28.019178 ; 29.024658 </Flow>
+      <Flow>7 ; 0 ; 0 ; 0 ; -1643509.675686 ; 27.021918 ; 28.024658 </Flow>
+      <Flow>1007 ; 0 ; 0 ; 0 ; 1597143.895905 ; 27.010959 ; 28.024658 </Flow>
+      <Flow>6 ; 0 ; 0 ; 0 ; -1639019.212092 ; 26.021918 ; 27.021918 </Flow>
+      <Flow>1006 ; 0 ; 0 ; 0 ; 1596135.807269 ; 26.010959 ; 27.021918 </Flow>
+      <Flow>5 ; 0 ; 0 ; 0 ; -1634528.748497 ; 25.024658 ; 26.021918 </Flow>
+      <Flow>1005 ; 0 ; 0 ; 0 ; 1590133.584090 ; 25.013699 ; 26.021918 </Flow>
+      <Flow>4 ; 0 ; 0 ; 0 ; -1634528.748497 ; 24.027397 ; 25.024658 </Flow>
+      <Flow>1004 ; 0 ; 0 ; 0 ; 1591455.425535 ; 24.016438 ; 25.024658 </Flow>
+      <Flow>3 ; 0 ; 0 ; 0 ; -1652490.602876 ; 23.019178 ; 24.027397 </Flow>
+      <Flow>1003 ; 0 ; 0 ; 0 ; 1605084.708654 ; 23.013699 ; 24.027397 </Flow>
+      <Flow>2 ; 0 ; 0 ; 0 ; -1639019.212092 ; 22.019178 ; 23.019178 </Flow>
+      <Flow>1002 ; 0 ; 0 ; 0 ; 1596649.653282 ; 22.013699 ; 23.019178 </Flow>
+      <Flow>1 ; 0 ; 0 ; 0 ; -1639019.212092 ; 21.019178 ; 22.019178 </Flow>
+      <Flow>1001 ; 0 ; 0 ; 0 ; 1595838.695367 ; 21.008219 ; 22.019178 </Flow>
+      <Flow>0 ; 0 ; 0 ; 0 ; -1639019.212092 ; 20.019178 ; 21.019178 </Flow>
+      <Flow>1000 ; 0 ; 0 ; 0 ; 1594288.904970 ; 20.008219 ; 21.019178 </Flow>
+    </ExptectedCashFlowsList>
+  </ExptectedCashFlows>
+  <Profiling>
+    <NumericalSettings></NumericalSettings>
+    <TotalQueriesTime>0.283800 </TotalQueriesTime>
+    <TotalCalibrationTime>0.000000 </TotalCalibrationTime>
+    <PayoffTime>0.277500 </PayoffTime>
+    <TotalDeserializationInputTime>0.005400 </TotalDeserializationInputTime>
+    <TotalNumberOfCalibrations> 1 </TotalNumberOfCalibrations>
+  </Profiling>
+</MacsML>
